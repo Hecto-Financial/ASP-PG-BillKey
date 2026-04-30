@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>S'Pay</title>
+<title>헥토파이낸셜 PG 취소 샘플</title>
 <style>
 #info	                				{display:flex; font-family:굴림; font-size:10pt; line-height: 20%;}
 #info > div > p	                		{font-size:13pt;}
@@ -90,7 +90,7 @@ function doAction(){
     	<td>ver[전문버전]</td><td><input type="text" name="ver" value="0A19" maxlength="4"/></td>
     </tr>
     
-    <!-- 결제수단(가상계좌[CA] 고정)-->
+    <!-- 결제수단(신용카드[CA] 고정)-->
     <tr class="fixed">
     	<td>method[결제수단]</td><td><input type="text" name="method" value="CA" readonly/></td>
     </tr>
@@ -107,7 +107,7 @@ function doAction(){
     
     <!-- 상점주문번호(상점에서 생성하는 유니크한 주문번호) -->
     <tr class="required">
-    	<td>mchtTrdNo[상점주문번호]</td><td><input type="text" name="mchtTrdNo" value="" maxlength="50"/></td>
+    	<td>mchtTrdNo[상점주문번호]</td><td><input type="text" name="mchtTrdNo" value="" maxlength="100"/></td>
     </tr>
     
     <!-- 요청일자(현재 전문을 요청하는 일자[yyyyMMdd]) -->
