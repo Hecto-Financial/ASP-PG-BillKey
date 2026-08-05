@@ -225,103 +225,103 @@ On Error GoTo 0
         </tr>
         <tr>
             <td>mchtId[상점아이디]</td>
-            <td><%= RES_PARAMS.params.get("mchtId") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("mchtId")) %></td>
         </tr>
         <tr>
             <td>ver[버전]</td>
-            <td><%= RES_PARAMS.params.get("ver") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("ver")) %></td>
         </tr>
         <tr>
             <td>method[결제수단]</td>
-            <td><%= RES_PARAMS.params.get("method") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("method")) %></td>
         </tr>
         <tr>
             <td>bizType[업무구분]</td>
-            <td><%= RES_PARAMS.params.get("bizType") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("bizType")) %></td>
         </tr>
         <tr>
             <td>encCd[암호화구분]</td>
-            <td><%= RES_PARAMS.params.get("encCd") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("encCd")) %></td>
         </tr>
         <tr>
             <td>mchtTrdNo[상점주문번호]</td>
-            <td><%= RES_PARAMS.params.get("mchtTrdNo") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("mchtTrdNo")) %></td>
         </tr>
         <tr>
             <td>trdNo[헥토파이낸셜 거래번호]</td>
-            <td><%= RES_PARAMS.params.get("trdNo") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("trdNo")) %></td>
         </tr>
         <tr>
             <td>trdDt[요청일자]</td>
-            <td><%= RES_PARAMS.params.get("trdDt") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("trdDt")) %></td>
         </tr>
         <tr>
             <td>trdTm[요청시간]</td>
-            <td><%= RES_PARAMS.params.get("trdTm") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("trdTm")) %></td>
         </tr>
         <tr>
             <td>outStatCd[거래상태코드]</td>
-            <td><%= RES_PARAMS.params.get("outStatCd") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("outStatCd")) %></td>
         </tr>
         <tr>
             <td>outRsltCd[거래결과코드]</td>
-            <td><%= RES_PARAMS.params.get("outRsltCd") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("outRsltCd")) %></td>
         </tr>
         <tr>
             <td>outRsltMsg[결과메세지]</td>
-            <td><%= RES_PARAMS.params.get("outRsltMsg") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.params.get("outRsltMsg")) %></td>
         </tr>
      	<tr>
             <td colspan="2" style="text-align: center;"><h4>data</h4></td>
         </tr>
         <tr>
             <td>pktHash[해쉬값]</td>
-            <td><%= RES_PARAMS.data.get("pktHash") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("pktHash")) %></td>
         </tr>
         <tr>
             <td>trdAmt[거래금액]</td>
-            <td><%= RES_PARAMS.data.get("trdAmt") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("trdAmt")) %></td>
         </tr>
 
         <tr>
             <td>cardNo[카드번호]</td>
-            <td><%= RES_PARAMS.data.get("cardNo") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("cardNo")) %></td>
         </tr>
         <tr>
             <td>vldDtYear[유효기간(년)]</td>
-            <td><%= RES_PARAMS.data.get("vldDtYear") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("vldDtYear")) %></td>
         </tr>
         <tr>
             <td>vldDtMon[유효기간(월)]</td>
-            <td><%= RES_PARAMS.data.get("vldDtMon") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("vldDtMon")) %></td>
         </tr>
         <tr>
             <td>issrId[발급사아이디]</td>
-            <td><%= RES_PARAMS.data.get("issrId") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("issrId")) %></td>
         </tr>
         <tr>
             <td>cardNm[카드사명]</td>
-            <td><%= RES_PARAMS.data.get("cardNm") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("cardNm")) %></td>
         </tr>
         <tr>
             <td>cardKind[카드종류명]</td>
-            <td><%= RES_PARAMS.data.get("cardKind") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("cardKind")) %></td>
         </tr>
         <tr>
             <td>ninstmtTypeCd[무이자할부타입]</td>
-            <td><%= RES_PARAMS.data.get("ninstmtTypeCd") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("ninstmtTypeCd")) %></td>
         </tr>
         <tr>
             <td>instmtMon[할부개월수]</td>
-            <td><%= RES_PARAMS.data.get("instmtMon") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("instmtMon")) %></td>
         </tr>
         <tr>
             <td>apprNo[승인번호]</td>
-            <td><%= RES_PARAMS.data.get("apprNo") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("apprNo")) %></td>
         </tr>
         <tr style="background-color:yellow;">
             <td>billKey[빌키]</td>
-            <td><%= RES_PARAMS.data.get("billKey") %></td>
+            <td><%= Server.HTMLEncode(RES_PARAMS.data.get("billKey")) %></td>
         </tr>
 
         <tr>
