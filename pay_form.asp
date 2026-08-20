@@ -60,6 +60,7 @@ function doAction(){
 		<p><a href="authAPI_form.asp" style="text-decoration:none;">[빌키 발급 API]</a></p>
 		<p><a href="pay_form.asp" style="text-decoration:none;">[결제 API(빌키 발급 포함)]</a><p></p>
 		<p><a href="billKey_form.asp" style="text-decoration:none;">[빌키 결제 API]</a></p>
+		<p><a href="delKey_form.asp" style="text-decoration:none;">[빌키 삭제 API]</a></p>
 		<p><a href="cancel_form.asp" style="text-decoration:none;">[취소 API]</a></p>
         <p><a href="encryptTest.asp" style="text-decoration:none;">[COM+ 컴포넌트 호출 테스트]</a></p>
 	</div>
@@ -67,6 +68,7 @@ function doAction(){
 		<p>:&nbsp;&nbsp;결제 하지 않고 빌키 발급</p>
 		<p>:&nbsp;&nbsp;결제 후 상점 아이디 설정에 따라 빌키 발급</p>
 		<p>:&nbsp;&nbsp;발급 받은 빌키로 정기 결제</p>
+		<p>:&nbsp;&nbsp;발급 받은 빌키 삭제</p>
 		<p>:&nbsp;&nbsp;결제된 거래 건 취소</p>
         <p>:&nbsp;&nbsp;AES256 암복호화 TEST</p>
 	</div>
